@@ -1,0 +1,9 @@
+﻿  caulc.h
+  main.cpp
+D:\repos\cpplearn\Project1\main.cpp(18,9): warning C4551: function call missing argument list
+D:\repos\cpplearn\Project1\main.cpp(8,9): warning C4101: 'operation': unreferenced local variable
+D:\repos\cpplearn\Project1\main.cpp(7,9): warning C4101: 'sum': unreferenced local variable
+D:\repos\cpplearn\Project1\main.cpp(6,12): warning C4101: 'y': unreferenced local variable
+D:\repos\cpplearn\Project1\main.cpp(6,9): warning C4101: 'x': unreferenced local variable
+main.obj : error LNK2005: "int __cdecl cal(void)" (?cal@@YAHXZ) already defined in caulc.obj
+D:\repos\cpplearn\x64\Release\Project1.exe : fatal error LNK1169: one or more multiply defined symbols found
