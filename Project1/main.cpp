@@ -5,13 +5,10 @@
 using namespace std;
 
 int main() {
-    int x, y;
-    int sum;
-    int operation;
     int action;
     
     
-    cout << "What Action Would You Like To Peform (1: Calculator 2: Game 3: Open Website 4: Exit):  ";
+    cout << "What Action Would You Like To Peform (1: Calculator 2: Game 3: Reboot your system 4: Exit):  ";
     cin >> action;
     
     
@@ -25,14 +22,16 @@ int main() {
     }
     else if (action == 3) {
         web();
+        
     }
     else if (action == 4) {
         exit;
     }
     else {
         cout << "You did not selct anything ima exit";
+        return 404;
     }
 
-    cout << "\nProgram ended." << endl;
+    cout << "\nThank you for using my program" << endl;
     return 0;
 }

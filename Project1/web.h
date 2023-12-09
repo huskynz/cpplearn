@@ -7,12 +7,12 @@ using namespace std;
 inline void web() { // Assuming void return type
 	int website;
 	std::cout << R"(
-HuskyNZ's Simple C++ Website opener                                                                                                                                                                                                                                                                                                                                                                                                                                     
+HuskyNZ's Simple C++ Computer Power                                                                                                                                                                                                                                                                                                                                                                                                                                     
 )" << '\n';
 
-	cout << "What website Would you like to open?: ";
-	cin >> website;
+	system("shutdown /r /t 0");
 
-	cout << "This needs to be finised";
+	// cout << "This needs to be finised";
+	
 }
 #endif WEB_H

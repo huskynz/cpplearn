@@ -15,7 +15,7 @@ HuskyNZ's Simple C++ Calculator
 
     cout << "What operation would you like to perform? (1: add, 2: sub, 3: mul, 4: div): ";
     cin >> operation;
-
+    
     if (operation == 1) {
         cout << "Type a number: ";
         cin >> x;
