@@ -1,5 +1,11 @@
 ﻿  main.cpp
-D:\repos\cpplearn\Project1\web.h(8,6): warning C4101: 'website': unreferenced local variable
+D:\repos\cpplearn\Project1\system.h(9,9): warning C4101: 'sum': unreferenced local variable
+  (compiling source file 'main.cpp')
+  
+D:\repos\cpplearn\Project1\system.h(8,12): warning C4101: 'y': unreferenced local variable
+  (compiling source file 'main.cpp')
+  
+D:\repos\cpplearn\Project1\system.h(8,9): warning C4101: 'x': unreferenced local variable
   (compiling source file 'main.cpp')
   
 D:\repos\cpplearn\Project1\main.cpp(28,9): warning C4551: function call missing argument list

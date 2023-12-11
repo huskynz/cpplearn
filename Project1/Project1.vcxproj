@@ -132,7 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game.h" />
-    <ClInclude Include="web.h" />
+    <ClInclude Include="system.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
