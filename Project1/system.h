@@ -5,12 +5,10 @@
 using namespace std;
 
 inline void systemaction() { // Assuming void return type
-    int x, y;
-    int sum;
     int operation;
 
     cout << R"(
-HuskyNZ's Simple C++ Calculator                                                                                                                                                                                                                                                                                                                                                                                                                                     
+HuskyNZ's Simple Power Oprater                                                                                                                                                                                                                                                                                                                                                                                                                                   
 )" << '\n';
 
     cout << "What operation would you like to perform? (1: Reboot, 2: Shutdown, 3: Sleep): ";

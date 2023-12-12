@@ -1,11 +1,10 @@
 ﻿#include <iostream>
 #include "caulc.h"
-#include "game.h"
 #include "system.h"
 using namespace std;
 
 int main() {
-    int action;cout << "What Action Would You Like To Peform (1: Calculator 2: Game 3: Perform power oprations on your system 4: Exit):  ";
+    int action;cout << "What Action Would You Like To Peform (1: Calculator 2: Perform power oprations on your system 3: Exit):  ";
     cin >> action;
 
     if (action == 1) {
@@ -13,18 +12,18 @@ int main() {
     }
     else if (action == 2) {
             
-        game();
+        systemaction();
     }
     else if (action == 3) {
-        systemaction();
+        exit;
         
     }
-    else if (action == 4) {
-        exit;
-    }
+    else if (action == 2016)
+    {
+	    		cout << "You foound the secret";
+	}
     else {
         cout << "You did not selct anything ima exit";
-        return 404;
     }
 
     cout << "\nThank you for using my program" << endl;
