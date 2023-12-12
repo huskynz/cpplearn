@@ -23,10 +23,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="game.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="web.h">
+    <ClInclude Include="system.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
