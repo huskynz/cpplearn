@@ -11,7 +11,7 @@ inline void systemaction() { // Assuming void return type
 HuskyNZ's Simple Power Oprater                                                                                                                                                                                                                                                                                                                                                                                                                                   
 )" << '\n';
 
-    cout << "What operation would you like to perform? (1: Reboot, 2: Shutdown, 3: Sleep): ";
+    cout << "What operation would you like to perform? (1: Reboot, 2: Shutdown, 3: Sleep, 4: Logoff): ";
     cin >> operation;
 
     if (operation == 1) {
@@ -21,8 +21,12 @@ HuskyNZ's Simple Power Oprater
     else if (operation == 2) {
         system("shutdown -s");
     }
+   
     else if (operation == 3) {
         system("rundll32.exe powrprof.dll,SetSuspendState 0,1,0");
+    }
+    else if (operation == 4) {
+        system("shutdown /l")
     }
     else {
         cout << "Invalid operation. Please try again.";
